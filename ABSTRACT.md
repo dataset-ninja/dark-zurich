@@ -1,4 +1,4 @@
-The authors presented the **_Dark Zurich Dataset_** of 8779 real images comprising 2416 unlabeled nighttime and 2920 unlabeled twilight images with correspondences to their daytime counterparts plus a set of 201 nighttime images with fine pixel-level annotations. The authors used this dataset to feed real data to Map-Guided Curriculum Domain Adaptation (MGCDA) and to create a benchmark with 201 nighttime images for their uncertainty-aware evaluation. The dataset is publicly available.
+The authors presented the **Dark Zurich Dataset** of 8779 real images comprising 2416 unlabeled nighttime and 2920 unlabeled twilight images with correspondences to their daytime counterparts plus a set of 201 nighttime images with fine pixel-level annotations. The authors used this dataset to feed real data to Map-Guided Curriculum Domain Adaptation (MGCDA) and to create a benchmark with 201 nighttime images for their uncertainty-aware evaluation. The dataset is publicly available.
 
 ## Motivation
 
