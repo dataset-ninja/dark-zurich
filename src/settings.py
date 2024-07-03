@@ -20,7 +20,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.CC_BY_NC_4_0(source_url="https://github.com/sakaridis/MGCDA/blob/master/LICENSE.txt")
+LICENSE: License = License.CC_BY_NC_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Automotive()]
 CATEGORY: Category = Category.SelfDriving()
 
@@ -29,7 +29,7 @@ ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
 
 RELEASE_DATE: Optional[str] = "2019-07-26"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
-    RELEASE_YEAR: int = None
+    RELEASE_YEAR: int = 2019
 
 HOMEPAGE_URL: str = "https://www.trace.ethz.ch/publications/2019/GCMA_UIoU/"
 # e.g. "https://some.com/dataset/homepage"
